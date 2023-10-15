@@ -50,7 +50,7 @@ background-color: #32a336;
 }
 .containerr{
     border-radius: 5px;
-    background-image: url(../images/signupcanva.jpeg);
+    background-image: url("../images/signupcanva.jpeg");
     background-repeat: no-repeat;
     padding: 20px;
     background-size: cover;
