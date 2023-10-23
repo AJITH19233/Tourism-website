@@ -22,6 +22,7 @@ function verify() {
     }
     if (!emailPattern.test(email)) {
         error1.innerHTML = "Please enter a valid email";
+        error1.style.color="red";
         return false;
     }
     if (!phoneRegex.test(mobile)) {
