@@ -1,5 +1,5 @@
 function validate() {
-    var emailPattern ="/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/";
+    var emailPattern =/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     var username = document.getElementById("usern").value;
     var password = document.getElementById("passw").value;
     var error1 = document.getElementById("error1");
