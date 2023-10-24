@@ -11,7 +11,7 @@ function validate() {
         return false;
     }
     if (password.length <= 8) {
-        error2.innerHTML = "Password must be more than 8 characters long";
+        error2.innerHTML = "Invalid Password!!!";
         error2.style.color="red";
         return false;
     }
